@@ -1,0 +1,71 @@
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .img {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .txt {
+    text-align: center;
+  }
+
+  .contextmenu, .Counselling {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Mobile View */
+@media only screen and (min-width: 575px) and (max-width: 768px),
+       only screen and (max-width: 574px) {
+
+  .menu-toggle {
+    display: block;
+  }
+
+  nav.navs {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #eee;
+    padding: 20px;
+    width: 100%;
+  }
+
+  nav.navs.active {
+    display: flex;
+  }
+
+  .img {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .contextmenu, .Counselling {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner {
+    height: auto;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .final h1, .final h5 {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+
+  .top p {
+    font-size: 24px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+    width: 90%;
+  }
+}
